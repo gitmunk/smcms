@@ -1,0 +1,7 @@
+{
+    "mongoSession" : "mongodb://localhost/shopmunk_dev",
+    "mongoHost"    : "localhost",
+    "mongoDb"      : "shopmunk_dev",
+    "mongoPort"    : 27017,
+    "instancePort" : 3001
+}

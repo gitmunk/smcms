@@ -1,0 +1,29 @@
+{
+    "name": "ShopMunk-CRM",
+    "description" : "ShopMunk's crm description",
+    "version" : "2.0.0",
+    "author" : "gubarez",
+    "repository" : {
+        "type" : "git",
+        "url"  : "https://github.com/gitmunk/smcrm/smcrm.git"
+    },
+    "dependencies" : {
+        "express" : "3.0.2",
+        "jade" : "0.27.7",
+        "passport" : "0.1.15",
+        "passport-local" : "0.1.6",
+        "corser" : "1.1.2",
+        "connect-mongodb" : "1.1.5",
+        "mongodb":"1.1.11",
+        "mongoose" : "3.4.0",
+        "bcrypt" : "0.7.3",
+        "winston" : "0.6.2",
+        "winston-mongodb": "0.4.0",
+        "express-winston": "0.1.22"
+    },
+    "main": "./app.js",
+    "engines": {
+        "node": ">= 0.8.14"
+    },
+    "readmeFilename": "README.md"
+}

@@ -1,0 +1,20 @@
+{ 
+    text: '.',
+    children: [{
+        text:'Venues',
+        leaf: true,
+        id:'venues',
+    },{
+        text:'Regions',
+        leaf: true,
+        id:'regions',
+    },{
+        text:'Campaigns',
+        leaf:true,
+        id:'campaigns',
+    },{
+        text:'Products',
+        leaf:true,
+        id:'products'
+    }]
+}
